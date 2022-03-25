@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2bc3441b-b309-415d-8086-30adbe8779ef/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/puwei-waterconsumption",
+    "appService.deploySubpath": "publish"
+}
