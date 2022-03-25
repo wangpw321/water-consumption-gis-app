@@ -120,6 +120,7 @@
 
     // Url Endpoints
     var dataUrl = "https://puwei-waterconsumption.azurewebsites.net/waterconsumption/getall";
+    //var dataUrl = "http://localhost:7083/waterconsumption/getall";
 
     // Basemap urls
     var osm_humanitarian = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
@@ -157,7 +158,7 @@
 
     // Get colours from: https://colorbrewer2.org/#type=sequential&scheme=YlGn&n=8
     function getColor(d) {
-        var pallete = ['#ffffe5','#f7fcb9','#d9f0a3','#addd8e','#78c679','#41ab5d','#238443','#005a32'];
+        var pallete = ['#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84'];
         return d > 40 ? pallete[7] :
             d > 35  ? pallete[6] :
             d > 30  ? pallete[5] :
